@@ -30,9 +30,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab1o = MakeTab({Name = "Grow a garden"})
      
-     local Tab2o = MakeTab({Name = "Script Other"})
+     local Tab2o = MakeTab({Name = "99 đêm trong rừng"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -43,9 +43,37 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     end
 })
 
-AddButton(Tab2o, {
-    Name = "Flygui v3",
+AddButton(Tab1o, {
+    Name = "Thunder z ( có key )",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/GaG/Main.lua'))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "OMGHUB ( có key )",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/khang26042012/Khangxplayto-Script-/refs/heads/main/T%E1%BB%95ng%20h%E1%BB%A3p.lua"))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "NOLAG HUB ( no key )",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/Main.lua"))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "Nathub ( có key )",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/khang26042012/Khangxplayto-Script-/refs/heads/main/T%E1%BB%95ng%20h%E1%BB%A3p.lua"))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "Than Hub ( có key )",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
     end
 })
