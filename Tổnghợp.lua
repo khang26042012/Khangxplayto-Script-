@@ -36,7 +36,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-    Name = "Speed Hub ( nokey )",
+    Name = "Speed Hub ( no key )",
     Callback = function()
         getgenv().Key = "BRiKqnqHmXcWBYjXFVtxYBMkydfKjnbK"
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
@@ -51,28 +51,14 @@ AddButton(Tab1o, {
 })
 
 AddButton(Tab1o, {
-    Name = "OMGHUB ( có key )",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/khang26042012/Khangxplayto-Script-/refs/heads/main/T%E1%BB%95ng%20h%E1%BB%A3p.lua"))()
-    end
-})
-
-AddButton(Tab1o, {
-    Name = "NOLAG HUB ( no key )",
+    Name = "NOLAG HUB ( có key )",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NoLag-id/No-Lag-HUB/refs/heads/main/Loader/Main.lua"))()
     end
 })
 
 AddButton(Tab1o, {
-    Name = "Nathub ( có key )",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/khang26042012/Khangxplayto-Script-/refs/heads/main/T%E1%BB%95ng%20h%E1%BB%A3p.lua"))()
-    end
-})
-
-AddButton(Tab1o, {
-    Name = "Than Hub ( có key )",
+    Name = "Than Hub ( no key siu ngon )",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
     end
