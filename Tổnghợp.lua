@@ -63,3 +63,38 @@ AddButton(Tab1o, {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
     end
 })
+
+AddButton(Tab1o, {
+    Name = "airflow hub ( có key )",
+    Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/255ac567ced3dcb9e69aa7e44c423f19.lua"))(
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "koronis Hub ( có key )",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/nf-36/Koronis/refs/heads/main/Scripts/Loader.lua"))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "fryzer ( có key )",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FryzerHub/loading-Gui/refs/heads/main/grow%20a%20garden%20v1"))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "nathub ( có key )",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ArdyBotzz/NatHub/refs/heads/master/NatHub.lua"))()
+    end
+})
+
+AddButton(Tab1o, {
+    Name = "doggo ( có key )",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/doggoman230/growagarden/refs/heads/main/script"))()
+    end
+})
